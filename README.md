@@ -1,5 +1,3 @@
----
-
 ## 👥 Team Workflow
 
 - Each team member works on a separate branch:
