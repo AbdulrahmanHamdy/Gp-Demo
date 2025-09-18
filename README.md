@@ -56,7 +56,7 @@ You can link your commits or Pull Requests to issues so they close automatically
 > In your commit message, use keywords like closes, fixes, or resolves followed by the issue number:
 
 ```bash
-git commit -m "fix: l[short description] closes #3"
+git commit -m "fix: [short description] closes #3"
 ```
 
 > If you want to close multiple issues in one commit/PR:
