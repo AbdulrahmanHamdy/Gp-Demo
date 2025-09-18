@@ -48,3 +48,26 @@ git push origin main
 Resolve any conflicts before pushing.
 
 ---
+
+🔒 Closing Issues Automatically
+
+You can link your commits or Pull Requests to issues so they close automatically after merge:
+
+In your commit message, use keywords like closes, fixes, or resolves followed by the issue number:
+
+git commit -m "fix: login redirect bug closes #3"
+
+
+If you want to close multiple issues in one commit/PR:
+
+git commit -m "feat: add image upload closes #3 closes #5"
+
+
+Alternatively, you can reference them in the Pull Request description:
+
+This PR adds login redirect handling and image upload.
+Closes #3  
+Closes #5
+
+
+👉 Once the Pull Request is merged into main, GitHub will automatically close the mentioned issues.
