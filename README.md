@@ -74,3 +74,53 @@ Closes #5
 ```
 
 👉 Once the Pull Request is merged into main, GitHub will automatically close the mentioned issues.
+
+---
+
+📝 Conventional Commit Messages
+
+To keep commit messages clean and consistent, use Conventional Commits:
+
+> `feat:` → a new feature
+
+```bash
+git commit -m "feat: add user profile page"
+```
+
+> `fix:` → a bug fix
+
+```bash
+git commit -m "fix: login redirect issue"
+```
+
+> `docs:` → documentation changes only (e.g., README updates)
+
+```bash
+git commit -m "docs: update setup instructions"
+```
+
+> `style:` → code style/formatting (no logic change)
+
+```bash
+git commit -m "style: format code with Prettier"
+```
+
+> `refactor:` → code changes that neither fix a bug nor add a feature
+
+```bash
+git commit -m "refactor: simplify database query"
+```
+
+> `test:` → adding or fixing tests
+
+```bash
+git commit -m "test: add unit tests for login service"
+```
+
+> `chore:` → maintenance tasks, configs, build scripts
+
+```bash
+git commit -m "chore: update dependencies"
+```
+
+✅ Tip: Using these prefixes helps the team quickly understand the purpose of each commit and makes changelogs/releases easier to generate.
