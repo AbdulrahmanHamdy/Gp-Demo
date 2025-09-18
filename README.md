@@ -56,21 +56,21 @@ You can link your commits or Pull Requests to issues so they close automatically
 > In your commit message, use keywords like closes, fixes, or resolves followed by the issue number:
 
 ```bash
-git commit -m "fix: [short description] closes #3"
+git commit -m "fix: [short description] closes [#id]"
 ```
 
 > If you want to close multiple issues in one commit/PR:
 
 ```bash
-git commit -m "feat: [short description] closes #3 closes #5"
+git commit -m "feat: [short description] closes [#id] closes [#id]"
 ```
 
 > Alternatively, you can reference them in the Pull Request description:
 
 ```bash
 This PR [short description]
-Closes #3  
-Closes #5
+Closes [#id]  
+Closes [#id]
 ```
 
 👉 Once the Pull Request is merged into main, GitHub will automatically close the mentioned issues.
