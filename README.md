@@ -62,7 +62,7 @@ git commit -m "fix: [short description] closes [#id]"
 > If you want to close multiple issues in one commit/PR:
 
 ```bash
-git commit -m "feat: [short description] closes [#id] closes [#id]"
+git commit -m "fix: [short description] closes [#id] closes [#id]"
 ```
 
 > Alternatively, you can reference them in the Pull Request description:
