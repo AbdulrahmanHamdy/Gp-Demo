@@ -125,5 +125,3 @@ git commit -m "chore: update dependencies"
 ```
 
 ✅ Tip: Using these prefixes helps the team quickly understand the purpose of each commit and makes changelogs/releases easier to generate.
-=======
->>>>>>> b74a826735508fe782186fbddcc14243c55d8b1b
